@@ -33,7 +33,7 @@ export default function App() {
     <div className="App">
       <h1>{text1}</h1>
 
-      <input onChange={flagHandler} />
+      <input placeholder="give your flagiticon here" onChange={flagHandler} />
       <div>
         <h2> {country}</h2>
       </div>
